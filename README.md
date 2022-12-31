@@ -13,4 +13,7 @@
    <li> CSS3</li>
     <li>JavaScript</li>
 </ul>
-<h4>Here's is The <a href="https://cash-exchange-guide.netlify.app">Project</a> link</h4>
+ <h4>Resource : <a href="https://neog.camp/guide/lessonSix">https://neog.camp/guide/lessonSix</a></h4>
+<h3>Here's is The <a href="https://cash-exchange-guide.netlify.app">Project</a> link</h3>
+ 
+ 
