@@ -11,42 +11,59 @@
     <div class="container">
         
         <h1 class="heading">Cash Register Manager</h1>
-        <p class="discreption">Enter the bill amount and cash given by the customer and know minimum number of notes to return</p>
+        <p class="discription">Enter the bill amount and cash given by the customer and know minimum number of notes to return</p>
+
+        <div class="bill">
+        <label for="bill-amount">Bill Amount<label>
+        <input type="number" id="bill-amount"/>
+        </div>
         
-        <h3 class="bill-cash-return">Bill Amount</h3>
-        <input type="number">
-        <h3 class="bill-cash-return">Cash Given</h3>
-        <input type="number">
-        <button type="submit" class="btn">Check</button>
-        <h3 class="bill-cash-return">Return Change</h3>
+        <div class="cash">
+        <label for="cash-given">Cash Given</lable>
+        <input type="number" id="cash-given"/>
+        </div>
+
+        <button  class='btn'>Check</button>
+
+        <p class="error-msg" ></p>
+        
         <table class="table">
+            <caption class="table-name">Return Change</caption>
             <tr>
-              <th>No.of Notes</th>
-     <td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
+            <th class="no-of-notes">No.of Notes</th>
+              <td class="notesToReturn"></td>
+              <td class="notesToReturn"></td>
+              <td class="notesToReturn"></td>
+              <td class="notesToReturn"></td>
+              <td class="notesToReturn"></td>
+              <td class="notesToReturn"></td>
+              <td class="notesToReturn"></td>
+              <td class="notesToReturn"></td>
+              <td class="notesToReturn"></td>
+              <td class="notesToReturn"></td>
             </tr>
             <tr>
-<th>Note Amount</th>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+            <th class="rupees-">Rupees</th>
+               <td class="rupees">2000</td>
+               <td class="rupees">500</td>
+               <td class="rupees">200</td>
+               <td class="rupees">100</td>
+               <td class="rupees">50</td>
+               <td class="rupees">20</td>
+               <td class="rupees">10</td>
+               <td class="rupees">5</td>
+               <td class="rupees">2</td>
+               <td class="rupees">1</td>
             </tr>
         </table>
-
+    <footer>
+        <h4 class="footer-header">CONNECT  WITH    ME . . .</h3>
+        <ul class="unorderlist">
+            <li><a href="https://github.com/Prachi-Gore">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/prachi-gore-4772a11a5">Linkedin</a></li>
+        </ul>
+    </footer>
     </div>
-    
+    <script src="app.js"> </script>
 </body>
 </html>
