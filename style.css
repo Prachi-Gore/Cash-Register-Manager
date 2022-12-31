@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    background-color: rgb(208, 243, 243);
+    
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items:center;
+    align-content:center;
+    text-align: center;
+}
+.heading{
+    color: rgb(20, 74, 74);
+    word-spacing: 10px;
+    font-size: xx-large;
+}
+.discription{
+    
+    margin-top: 0px;
+    font-size: large;
+    letter-spacing: 2px;
+
+}
+.bill{
+font-weight: bold;
+margin: 15px;
+
+font-size: large;
+color: hwb(120 4% 91%);
+}
+#bill-amount,#cash-given{
+    text-align: center;
+    font-size: large;
+    display: block;
+    margin-top: 5px;
+    border-radius: 0.5rem;
+    border:3px rgb(20, 74, 74) solid ;
+    padding: 7px ;
+    
+    
+
+}
+.cash{
+font-weight: bold;
+margin: 5px;
+font-size: large;
+color: hwb(120 4% 91%);
+}
+.btn{
+    text-align: center;
+    font-size: 18px;
+    padding: 7px 55px;
+    margin-top: 25px;
+    background-color: rgb(88, 234, 88);
+    border-radius: 0.5rem;
+    border: 3px rgb(20, 74, 74) solid;
+    color: azure;
+}
+.btn:hover{
+    background-color: rgb(38, 164, 38);
+}
+.table{
+    margin-top: 45px;
+    border: 2px solid blue;
+    border-collapse: collapse;
+    
+}
+.table-name{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+td,th{
+border: 3px solid rgb(20, 74, 74);
+text-align: center;
+width: 55px;
+height: 40px;
+font-size: large;
+}
+footer{
+    font-size:20px;
+    margin-top:85px;
+    
+   }
+footer,ul,li{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+a{
+   
+    color: rgb(20, 74, 74);
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 25px;
+    margin: 5px;
+}
+.error-msg{
+    margin-top: 25px;/*padding-top:15px*/
+    font-size: medium;
+    text-align: center;
+    color: black;
+} 
+    
+    
+
+   
+    
+
+
